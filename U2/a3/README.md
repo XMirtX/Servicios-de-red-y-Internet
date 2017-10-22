@@ -3,6 +3,7 @@
   * Preparación de la maquina "**DHCP FailOver**".
     * Sistema Windows 2012 Server
     * IP estatica:
+
     ![image](img/Selección_002.png)
 
     * Unión al dominio
@@ -84,7 +85,6 @@
   ![image](img/Selección_013.png)
 
     * Activamos el ambito en el servidor espejo.
-    
     ![image](img/Selección_016.png)
 
 ---
