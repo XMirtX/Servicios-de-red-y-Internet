@@ -85,6 +85,7 @@
   ![image](img/Selección_013.png)
 
     * Activamos el ambito en el servidor espejo.
+    
     ![image](img/Selección_016.png)
 
 ---
