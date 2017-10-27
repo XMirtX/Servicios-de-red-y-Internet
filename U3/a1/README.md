@@ -6,6 +6,7 @@
 
     * Windows 2012 Server
     * IP Fija:
+
     ![image](img/img0001.png)
 
 
@@ -13,6 +14,7 @@
 
     * Windows 10 Cliente
     * IP Fija:
+    
     ![image](img/img00002.png)
 
 ### Instalación de DNS:
