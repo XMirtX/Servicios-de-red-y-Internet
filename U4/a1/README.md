@@ -361,7 +361,7 @@ relaciónalo con la carpeta que has creado.
 
       ![image](img/img45.png)
 
-      ![image](img/img46.png)
+      ![image](img/img46.pnp)
 
     * Servidor:
 
