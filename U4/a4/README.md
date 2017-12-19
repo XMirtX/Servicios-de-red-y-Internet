@@ -151,7 +151,7 @@
 
   *  Habilitar módulo SSL apache: sudo a2enmod ssl
 
-    ![image](img/img15.png)
+  ![image](img/img15.png)
 
   * Reinicia el servicio de apache.
 
