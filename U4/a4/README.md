@@ -113,29 +113,37 @@
 
   * Al instalar Apache, se instala también SSL.
   *  Generar certificado autofirmado:
-    *  § openssl genrsa -des3 -out server.key 1024.
 
-      ![image](img/img11.png)
+  *  § openssl genrsa -des3 -out server.key 1024.
 
-      > Nos pide una contraseña poner una contraseña para el certificado.
+  ![image](img/img11.png)
 
-    *  § openssl rsa -in server.key -out server.pem.
 
-      ![image](img/img12.png)
+  > Nos pide una contraseña poner una contraseña para el certificado.
 
-    *  § openssl req -new -key server.key -out server.csr.
 
-      ![image](img/img13.png)
+  *  § openssl rsa -in server.key -out server.pem.
 
-      > Datos de empresa.
+  ![image](img/img12.png)
 
-    *  § openssl x509 -req -days 360 -in server.csr -signkey server.key -out server.crt.
+  *  § openssl req -new -key server.key -out server.csr.
 
-      ![image](img/img14.png)
+  ![image](img/img13.png)
 
-    > Una vez terminados los certificados copiarlos a la carpeta de apache2
 
-      ![image](img/img17.png)
+  > Datos de empresa.
+
+
+  *  § openssl x509 -req -days 360 -in server.csr -signkey server.key -out server.crt.
+
+  ![image](img/img14.png)
+
+
+  > Una vez terminados los certificados copiarlos a la carpeta de apache2
+
+
+  ![image](img/img17.png)
+
 
   * Modificar /etc/apache2/sites-available/000-default.conf.
 
