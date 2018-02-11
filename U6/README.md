@@ -178,4 +178,4 @@ por POP3) de los buzones respectivos de los usuarios en /var
 
   * Segundo mensaje suso
 
-    ![images](images/000262.png)
+    ![images](images/000263.png)
